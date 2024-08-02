@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  margin: 10px 0;
+}
+.logo {
+  margin: 10px;
+}
+.nav {
+  background-color: #000;
+}
+.nav ul {
+  margin: 0 20px;
+  display: flex;
+}
+.nav li {
+  margin-right: 80px;
+  padding: 30px 0;
+}
+.nav a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Carousel */
+.carousel {
+  margin: 10px 0;
+}
+.carousel__content img {
+  width: 100%;
+}
+
+/* About */
+.about__des {
+  margin: 10px 40px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.about__images {
+  margin: 50px 20px;
+  display: flex;
+}
+.images__left,
+.images__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.images__left .top {
+  height: 40%;
+  display: flex;
+}
+.images__left .bot {
+  height: 60%;
+}
+.images__left .top .about__item {
+  width: 50%;
+}
+.images__right .about__item {
+  height: 50%;
+}
+.about__item img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* Product */
+.products {
+  margin: 30px 0;
+}
+.product__content {
+  margin: 0 40px;
+}
+.product__title {
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.product__list {
+  display: flex;
+}
+.product__item {
+  width: 25%;
+}
+.item__bg {
+  padding: 20px;
+}
+.item__img {
+  margin-bottom: 20px;
+}
+.item__img img {
+  width: 100%;
+  border-radius: 30px;
+}
+.item__title {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #d41a2a;
+  margin-bottom: 8px;
+}
+.item__des {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+.product__button {
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #d41a2a;
+  border: 1px solid transparent;
+}
+
+/* Saleoff */
+.saleoff {
+  margin: 50px 0;
+  background-image: url("./imgs/nature.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.saleoff__content {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  background-color: #ff000078;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.saleoff__cost p:first-child {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.saleoff__cost p.number {
+  font-size: 80px;
+  margin: 10px 0;
+  font-weight: 900;
+}
+/* Contact */
+.contact {
+  margin: 20px auto;
+  width: 60%;
+}
+.contact__content {
+  display: flex;
+}
+.contact__item {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 40px;
+}
+.contact__title {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.footer p {
+  margin-top: 8px;
+}
+.footer a {
+  color: #fff;
+}
